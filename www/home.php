@@ -1,8 +1,8 @@
 <?php
 
 require_once('../config.php');
-require_once('../functions.php');
-require_once('php-sdk/facebook.php');
+require_once( BASE_PATH . 'functions.php');
+require_once( BASE_PATH . 'sdk/facebook-sdk/facebook.php');
 
 $banned = check_bans();
 if($banned > 0) {
@@ -48,7 +48,10 @@ $date = date('U');
 	<script type="text/javascript" src="js/jquery-form.js"></script>
 	<script type="text/javascript" src="js/jquery-validate.js"></script>
 	<script type="text/javascript" src="js/jquery-fancybox.js"></script>
-	<script type="text/javascript" src="js/ottawa.js?date=<?php $date; ?>"></script>
+	<script type="text/javascript" src="js/app.js?date=<?php $date; ?>"></script>
+	<?php if($liked != 1) { ?>
+	<script type="text/javascript" src="js/like.js<?php $date; ?>"></script>
+	<? } ?>
 
 </head>
 
@@ -60,9 +63,9 @@ $date = date('U');
 
 <?php if($liked == 1) {
 	require_once('pages.php'); 
-} else { ?>
-	<div id="like-gate"></div> 
-<?php } ?>
+} else {
+	require_once('like-gate.php');
+} ?>
 
 </div>
 

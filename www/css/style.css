@@ -8,60 +8,9 @@ a:active { outline: none; }
 }
 .clear { clear: both; }
 
-#page-wrapper { position: relative; width: 810px; height: 1530px; overflow: hidden; margin: 0 auto; background: #fff; font-family: arial, tahoma, verdana, sans-serif; }
-#page-wrapper .page { width: 810px; height: 1530px; }
+#page-wrapper { position: relative; width: 809px; height: 988px; overflow: hidden; margin: 0 auto; background: #fff; font-family: arial, tahoma, verdana, sans-serif; }
+#page-wrapper .page { width: 809px; height: 988px; }
 
-#like-gate { background: url(../img/bg-likegate.jpg) no-repeat; width: 810px; height: 1530px; }
+#like-gate { background: url(../img/bg-like-gate.jpg) no-repeat; width: 809px; height: 988px; }
 
-.page { position: absolute; float: left; width: 810px; height: 1530px; left: 810px; }
-#one { background: url(../img/bg-page1.jpg) no-repeat; } 
-#music { background: url(../img/bg-music.jpg) no-repeat; }
-#video { background: url(../img/bg-video.jpg) no-repeat; }
-#photo { background: url(../img/bg-photo.jpg) no-repeat; }
-
-.file-type-choice { position: absolute; display: block; width: 536px; height: 170px; text-indent: -9999pt; }
-.file-type-choice .photo-link { display: block; width: 173px; height: 170px; background: url(../img/submit-buttons.png) no-repeat; text-indent: -9999pt; float: left; }
-.file-type-choice .video-link { display: block; width: 190px; height: 170px; background: url(../img/submit-buttons.png) no-repeat -173px 0; float: left; }
-.file-type-choice .music-link { display: block; width: 173px; height: 170px; background: url(../img/submit-buttons.png) no-repeat -363px 0; float: left; }
-.file-type-choice .photo-link:hover { display: block; width: 173px; height: 170px; background: url(../img/submit-buttons.png) no-repeat 0 -170px; text-indent: -9999pt; float: left; }
-.file-type-choice .video-link:hover { display: block; width: 190px; height: 170px; background: url(../img/submit-buttons.png) no-repeat -173px -170px; float: left; }
-.file-type-choice .music-link:hover { display: block; width: 173px; height: 170px; background: url(../img/submit-buttons.png) no-repeat -363px -170px; float: left; }
-
-#one .file-type-choice { height: 240px; overflow: hidden; bottom: 250px; left: 17%; }
-#one .submit-header { display: block; width: 391px; height: 72px; background: url(../img/submit-header.png) no-repeat 0 -72px; clear: both; margin: 0 auto 5px auto; }
-
-#photo .submit-header { display: block; width: 391px; height: 72px; background: url(../img/submit-header.png) no-repeat 0 0px; clear: both; margin: 0 auto 5px auto; }
-#video .submit-header { display: block; width: 391px; height: 72px; background: url(../img/submit-header.png) no-repeat 0 -72px; clear: both; margin: 0 auto 5px auto; }
-#music .submit-header { display: block; width: 391px; height: 72px; background: url(../img/submit-header.png) no-repeat 0 -144px; clear: both; margin: 0 auto 5px auto; }
-#photo .file-type-choice .photo-link { background: url(../img/submit-buttons.png) no-repeat 0 -170px; }
-#video .file-type-choice .video-link { background: url(../img/submit-buttons.png) no-repeat -173px -170px; }
-#music .file-type-choice .music-link { background: url(../img/submit-buttons.png) no-repeat -363px -170px; }
-
-#photo .file-type-choice,
-#video .file-type-choice,
-#music .file-type-choice { top: 30px; left: 20%; }
-
-#thanks { left: 0; }
-
-.page .form { float: left; width: 300px; position: absolute; top: 300px; left: 175px; }
-.page .form ul { list-style: none; }
-.page .form ul li { margin: 10px 0 0 0; }
-.page .form label { display: block; width: 75px; float: left; padding: 4px 0 0 0; }
-.page .form .news-li label { width: 220px; }
-.page .form input { border: 1px solid #000; border-radius: 3px; background: #e6e4ba; padding: 3px; }
-.page .form ul li span { position: absolute; display: block; right: left: 0px; width: 300px; background: red; color: #fff; z-index: 1; padding: 3px; border-radius: 5px; }
-.page .form ul li span label { width: 100%; }
-
-.page .form-confirm { position: absolute; width: 300px; top: 310px; left: 440px; }
-.page .form-confirm p { margin: 0px 0 20px 0; }
-.page .form-confirm .clip { clear: both; display: block; margin: 10px 0 0 0; }
-.page .form-confirm .submit { margin: 20px 0 0 0; }
-.page .form-confirm ul { list-style: none; }
-.page .form-confirm ul li span { position: absolute; right: 0px; width: 300px; background: red; color: #fff; z-index: 1; padding: 3px; border-radius: 5px; }
-.page .form-confirm ul li span label { width: 100%; }
-
-.submit { display: block; border: 0; width: 121px; height: 66px; background: url(../img/submit-btn.png) no-repeat; text-indent: -9999pt; }
-
-#thanks { background: url(../img/bg-thanks.jpg) no-repeat; }
-#thanks #fb-share { position: absolute; top: 343px; left: 114px; display: block; border: 0; width: 114px; height: 39px; background: url(../img/fb-share.png) no-repeat; text-indent: -9999pt; }
-#thanks #twitter-share { position: absolute; top: 343px; left: 240px; display: block; border: 0; width: 114px; height: 39px; background: url(../img/twitter-share.png) no-repeat; text-indent: -9999pt; }
+.page { position: absolute; float: left; width: 809px; height: 988px; left: 809px; }
